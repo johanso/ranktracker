@@ -54,7 +54,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            towfiqi/serpbear:${{ steps.version.outputs.version }}
-            towfiqi/serpbear:latest
+            towfiqi/ranktracker:${{ steps.version.outputs.version }}
+            towfiqi/ranktracker:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
